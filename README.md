@@ -120,6 +120,29 @@ cs50-translate-uzbek/
 - Dublyaj qilingan videoda manbani koʻrsating va tarjima/ovoz sun'iy intellekt bilan yaratilganini yashirmang.
 - Har bir ovoz modelining oʻz litsenziyasi bor (MMS va OmniVoice: CC-BY-NC; Chatterbox adapteri: MIT; Edge: Microsoft shartlari). Ularni ishlatishdan oldin oʻqing.
 - Boshqa odamning ovozini roziligisiz klonlamang.
+- **Muallifning ovozi.** Namuna ovoz yozuvi repoga kiritilmagan. Muallifning ovozi, uning namuna yozuvi va shu ovoz bilan yaratilgan sintez audio klonlash, taqlid qilish yoki ovoz/AI modelini oʻqitish uchun ishlatilishi mumkin emas. MIT litsenziyasi faqat kodga tegishli, ovoz yozuvlarini qamramaydi.
+
+## Nashr qilish (YouTube va boshqa kanallar)
+
+CS50 materiallari CC BY-NC-SA 4.0 ostida, OmniVoice modeli esa CC-BY-NC. Shu sababli dublyaj qilingan videolarni nashr qilganda:
+
+- **Daromadsiz boʻlsin:** monetizatsiya, reklama, homiylik va pullik kursga bogʻlamang. Asosiy kanalingiz monetizatsiya qilingan boʻlsa, dublyajlar uchun alohida kanal ochish xavfsizroq (YouTube ning "reused content" qoidasi kanal darajasida ishlaydi).
+- **Manbani koʻrsating:** asl CS50 videosiga havola va "CC BY-NC-SA 4.0" yozuvi. Hosila asar xuddi shu litsenziyada tarqatiladi (ShareAlike). YouTube ning "Creative Commons" tanlovi CC BY ni beradi, bu mos kelmasligi mumkin, shuning uchun uni tanlamasdan, litsenziyani tavsifda yozing.
+- **AI ekanini yashirmang:** tarjima va ovoz sunʼiy intellekt bilan yaratilgan. Oʻz ovozingiz bilan dublyaj qilish YouTube ning sunʼiy kontent yorligʻini odatda talab qilmaydi, lekin tavsifda baribir yozing.
+- **Harvard yoki CS50 tasdiqlamagan:** buni aniq yozing. Imkon boʻlsa, nashrdan oldin CS50 jamoasidan ruxsat soʻrang.
+- **OmniVoice shartlari:** modelni manba sifatida koʻrsating; chiqqan audio bilan boshqa AI modelini oʻqitmang; tokenizer litsenziyasidagi (`audio_tokenizer/LICENSE`) "Built with Higgs Materials" talabi va 100 000 yillik foydalanuvchi chegarasi sizga tegishlimi, mualliflardan soʻrang.
+
+Video tavsifi uchun shablon:
+
+```text
+Bu video CS50x (Harvard University) ma'ruzasining oʻzbekcha dublyaj qilingan nusxasi.
+Asl video: <havola>
+CS50 materiallari CC BY-NC-SA 4.0 litsenziyasi ostida; bu dublyaj ham shu litsenziya ostida va tijoriy maqsadda ishlatilmaydi.
+Tarjima sunʼiy intellekt yordamida qilingan [va muallif tomonidan tekshirilgan].
+Ovoz: muallifning ovozi asosida OmniVoice (k2-fsa) modeli bilan sintez qilingan.
+Ovoz haqida: bu ovozni klonlash, taqlid qilish yoki ovoz/AI modelini oʻqitish uchun ishlatish mumkin emas. Shaxsiy huquqlar saqlanadi va CC litsenziyasiga kirmaydi.
+Bu video Harvard yoki CS50 tomonidan tasdiqlanmagan.
+```
 
 ## Litsenziya
 
