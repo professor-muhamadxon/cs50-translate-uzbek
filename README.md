@@ -144,6 +144,28 @@ Ovoz haqida: bu ovozni klonlash, taqlid qilish yoki ovoz/AI modelini oʻqitish u
 Bu video Harvard yoki CS50 tomonidan tasdiqlanmagan.
 ```
 
+## Tijoriy foydalanish va fine-tuning
+
+Bu boʻlim huquqiy maslahat emas. Model va maʼlumot litsenziyalarini oʻzingiz tekshiring.
+
+Dublyaj dasturini SaaS yoki daromadli xizmat sifatida ishlatmoqchi boʻlsangiz, ovoz dvigateli shunga ruxsat berishi kerak:
+
+| Dvigatel | Daromadli foydalanish |
+| --- | --- |
+| `edge` | Tavsiya etilmaydi: `edge-tts` Microsoft ning rasmiy API sini emas, brauzer xizmatini ishlatadi. Tijorat uchun rasmiy yoʻl Azure AI Speech (pullik, shartlarini tekshiring) |
+| `mms` | Yoʻq: model CC-BY-NC |
+| `cbx` (Chatterbox) | Ehtimol mumkin: Chatterbox va oʻzbek adapteri MIT (model kartalariga koʻra). Asos modelni, oʻqitish maʼlumotlari litsenziyalarini tekshiring; chiqishga suv belgisi (watermark) qoʻyiladi |
+| `omni` (OmniVoice) | Yoʻq: model ogʻirliklari CC-BY-NC. Tokenizer litsenziyasida (`audio_tokenizer/LICENSE`) qoʻshimcha shartlar bor: yozuv, 100 000 yillik foydalanuvchi chegarasi, chiqqan audio bilan boshqa modelni oʻqitmaslik |
+
+### OmniVoice ni fine-tuning qilish
+
+OmniVoice repozitoriysida toʻliq fine-tuning (`docs/training.md`) va LoRA (`docs/lora_finetuning.md`) yoʻriqnomalari bor. LoRA parametrlarning taxminan 3% ini oʻqitadi (19,3 mln / 631,9 mln) va boshlangʻich model sifatida `k2-fsa/OmniVoice` ni oladi. Biz buni sinab koʻrmaganmiz.
+
+- **Fine-tuning litsenziyani oʻzgartirmaydi.** Natija CC-BY-NC modelning hosilasi, shuning uchun u ham tijoriy emas. Tokenizer litsenziyasiga koʻra, Higgs materiallari bilan yaratilgan modelni tarqatsangiz, uning nomi "Higgs Audio 2" bilan boshlanishi va litsenziya hamda yozuvlar qoʻshilishi kerak.
+- **Foydasi:** oʻzbekcha sifatni yaxshilash mumkin (bu faraz, tekshirilmagan), lekin faqat tadqiqot va tijoriy boʻlmagan maqsadda.
+- **Tijorat uchun yoʻllar:** mualliflardan tijorat litsenziyasi soʻrash, yoki Apache-2.0 kod bilan ruxsat berilgan ochiq maʼlumotda (masalan, Uzbek Speech Corpus CC-BY-4.0, Common Voice CC0) noldan oʻqitish va tokenizer shartlarini ham hal qilish.
+- **Apparat:** standart oʻqitish `flex_attention` ni ishlatadi (PyTorch ≥ 2.5 va Ampere yoki yangiroq NVIDIA GPU tavsiya etiladi). Eskiroq GPU da `attn_implementation: "sdpa"` ishlating. Xotira va vaqt talabi bizda oʻlchanmagan.
+
 ## Litsenziya
 
 Bu repodagi kod [MIT litsenziyasi](LICENSE) bilan tarqatiladi. Litsenziya faqat shu kodga tegishli: CS50 materiallari va ovoz modellarining oʻz litsenziyalari bor (yuqoridagi "Huquq va axloq" boʻlimiga qarang).
