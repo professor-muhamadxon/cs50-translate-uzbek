@@ -123,7 +123,7 @@ cs50-translate-uzbek/
 
 ## Litsenziya
 
-Kod litsenziyasi hali tanlanmagan: litsenziya fayli qoʻshilmaguncha barcha huquqlar muallifda qoladi.
+Bu repodagi kod [MIT litsenziyasi](LICENSE) bilan tarqatiladi. Litsenziya faqat shu kodga tegishli: CS50 materiallari va ovoz modellarining oʻz litsenziyalari bor (yuqoridagi "Huquq va axloq" boʻlimiga qarang).
 
 ## Minnatdorchilik
 
