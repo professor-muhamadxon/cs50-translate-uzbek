@@ -1,0 +1,11 @@
+edge-tts
+pydub
+audioop-lts; python_version >= "3.13"
+faster-whisper
+av>=14,<16
+demucs
+gTTS
+# faqat --engine mms uchun:
+# transformers
+# torch
+# scipy

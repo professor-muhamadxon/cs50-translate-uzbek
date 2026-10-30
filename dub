@@ -1,0 +1,6 @@
+#!/bin/zsh
+# dubber CLI: .venv dagi Python bilan ishga tushiradi
+root="$(cd "$(dirname "$0")" && pwd)"
+py="$root/.venv/bin/python"
+[ -x "$py" ] || { echo "avval ./setup.sh ni ishga tushiring" >&2; exit 1; }
+cd "$root/apps" && exec "$py" -m dubber "$@"

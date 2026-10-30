@@ -1,0 +1,807 @@
+{
+ "keep_english": [
+  "pointer",
+  "dereference",
+  "malloc",
+  "calloc",
+  "realloc",
+  "stack",
+  "heap",
+  "overflow",
+  "array",
+  "string",
+  "char",
+  "int",
+  "float",
+  "double",
+  "bool",
+  "boolean",
+  "void",
+  "struct",
+  "typedef",
+  "enum",
+  "union",
+  "const",
+  "unsigned",
+  "sizeof",
+  "printf",
+  "scanf",
+  "strlen",
+  "strcmp",
+  "argc",
+  "argv",
+  "main",
+  "stdio",
+  "stdlib",
+  "loop",
+  "null",
+  "casting",
+  "hex",
+  "byte",
+  "ascii",
+  "unicode",
+  "variable",
+  "function",
+  "header",
+  "include",
+  "define",
+  "macro",
+  "compiler",
+  "compile",
+  "linker",
+  "debugger",
+  "debug",
+  "bug",
+  "segfault",
+  "valgrind",
+  "makefile",
+  "clang",
+  "gcc",
+  "trie",
+  "hash",
+  "queue",
+  "cache",
+  "bitmap",
+  "pixel",
+  "python",
+  "def",
+  "append",
+  "tuple",
+  "dict",
+  "pip",
+  "html",
+  "css",
+  "javascript",
+  "dom",
+  "http",
+  "https",
+  "url",
+  "api",
+  "json",
+  "flask",
+  "jinja",
+  "bootstrap",
+  "div",
+  "cookie",
+  "route",
+  "template",
+  "frontend",
+  "backend",
+  "sql",
+  "sqlite",
+  "git",
+  "github",
+  "commit",
+  "branch",
+  "merge",
+  "repository",
+  "bash",
+  "shell",
+  "linux",
+  "unix",
+  "macos",
+  "windows",
+  "codespaces",
+  "ide",
+  "cd",
+  "ls",
+  "mkdir",
+  "rm",
+  "cp",
+  "mv",
+  "harvard",
+  "scratch",
+  "sprite",
+  "pset",
+  "ai",
+  "gpt",
+  "chatgpt",
+  "llm",
+  "prompt",
+  "rgb",
+  "jpeg",
+  "bmp"
+ ],
+ "say": {
+  "pointer": {
+   "lat": "poynter",
+   "cyr": "пойнтер"
+  },
+  "dereference": {
+   "lat": "dereferens",
+   "cyr": "дереференс"
+  },
+  "malloc": {
+   "lat": "malok",
+   "cyr": "маллок"
+  },
+  "calloc": {
+   "lat": "kalok",
+   "cyr": "каллок"
+  },
+  "realloc": {
+   "lat": "realok",
+   "cyr": "реаллок"
+  },
+  "free": {
+   "lat": "fri",
+   "cyr": "фри"
+  },
+  "stack": {
+   "lat": "stek",
+   "cyr": "стэк"
+  },
+  "heap": {
+   "lat": "xip",
+   "cyr": "хип"
+  },
+  "overflow": {
+   "lat": "overflou",
+   "cyr": "оверфлоу"
+  },
+  "array": {
+   "lat": "arey",
+   "cyr": "эрей"
+  },
+  "string": {
+   "lat": "string",
+   "cyr": "стринг"
+  },
+  "char": {
+   "lat": "kar",
+   "cyr": "кар"
+  },
+  "int": {
+   "lat": "int",
+   "cyr": "инт"
+  },
+  "float": {
+   "lat": "flot",
+   "cyr": "флоат"
+  },
+  "double": {
+   "lat": "dabl",
+   "cyr": "дабл"
+  },
+  "bool": {
+   "lat": "bul",
+   "cyr": "бул"
+  },
+  "boolean": {
+   "lat": "bulian",
+   "cyr": "булиан"
+  },
+  "void": {
+   "lat": "voyd",
+   "cyr": "войд"
+  },
+  "struct": {
+   "lat": "strakt",
+   "cyr": "структ"
+  },
+  "typedef": {
+   "lat": "taypdef",
+   "cyr": "тайпдеф"
+  },
+  "enum": {
+   "lat": "inam",
+   "cyr": "ином"
+  },
+  "union": {
+   "lat": "yunion",
+   "cyr": "юнион"
+  },
+  "const": {
+   "lat": "konst",
+   "cyr": "конст"
+  },
+  "unsigned": {
+   "lat": "ansaynd",
+   "cyr": "ансайнд"
+  },
+  "sizeof": {
+   "lat": "sayz ov",
+   "cyr": "сайз ов"
+  },
+  "printf": {
+   "lat": "print ef",
+   "cyr": "принт эф"
+  },
+  "scanf": {
+   "lat": "skan ef",
+   "cyr": "скан эф"
+  },
+  "strlen": {
+   "lat": "es ti ar len",
+   "cyr": "эс ти ар лен"
+  },
+  "strcmp": {
+   "lat": "es ti ar si em pi",
+   "cyr": "эс ти ар си эм пи"
+  },
+  "argc": {
+   "lat": "arg si",
+   "cyr": "арг си"
+  },
+  "argv": {
+   "lat": "arg vi",
+   "cyr": "арг ви"
+  },
+  "main": {
+   "lat": "meyn",
+   "cyr": "мейн"
+  },
+  "return": {
+   "lat": "ritern",
+   "cyr": "ритерн"
+  },
+  "stdio": {
+   "lat": "es ti di ay o",
+   "cyr": "эс ти ди ай о"
+  },
+  "stdlib": {
+   "lat": "es ti di lib",
+   "cyr": "эс ти ди либ"
+  },
+  "loop": {
+   "lat": "lup",
+   "cyr": "луп"
+  },
+  "while": {
+   "lat": "vayl",
+   "cyr": "вайл"
+  },
+  "for": {
+   "lat": "for",
+   "cyr": "фор"
+  },
+  "if": {
+   "lat": "if",
+   "cyr": "иф"
+  },
+  "else": {
+   "lat": "els",
+   "cyr": "элс"
+  },
+  "switch": {
+   "lat": "svich",
+   "cyr": "свич"
+  },
+  "break": {
+   "lat": "breyk",
+   "cyr": "брейк"
+  },
+  "continue": {
+   "lat": "kontinyu",
+   "cyr": "континью"
+  },
+  "true": {
+   "lat": "tru",
+   "cyr": "тру"
+  },
+  "false": {
+   "lat": "fols",
+   "cyr": "фолс"
+  },
+  "null": {
+   "lat": "nal",
+   "cyr": "нал"
+  },
+  "casting": {
+   "lat": "kasting",
+   "cyr": "кастинг"
+  },
+  "hex": {
+   "lat": "heks",
+   "cyr": "хекс"
+  },
+  "bit": {
+   "lat": "bit",
+   "cyr": "бит"
+  },
+  "byte": {
+   "lat": "bayt",
+   "cyr": "байт"
+  },
+  "ascii": {
+   "lat": "aski",
+   "cyr": "аски"
+  },
+  "unicode": {
+   "lat": "yunikod",
+   "cyr": "юникод"
+  },
+  "variable": {
+   "lat": "veriabl",
+   "cyr": "вэриабл"
+  },
+  "function": {
+   "lat": "fankshn",
+   "cyr": "фанкшн"
+  },
+  "header": {
+   "lat": "xeder",
+   "cyr": "хедер"
+  },
+  "include": {
+   "lat": "inklud",
+   "cyr": "инклуд"
+  },
+  "define": {
+   "lat": "difayn",
+   "cyr": "дефайн"
+  },
+  "macro": {
+   "lat": "makro",
+   "cyr": "макро"
+  },
+  "compiler": {
+   "lat": "kompayler",
+   "cyr": "компайлер"
+  },
+  "compile": {
+   "lat": "kompayl",
+   "cyr": "компайл"
+  },
+  "linker": {
+   "lat": "linker",
+   "cyr": "линкер"
+  },
+  "debugger": {
+   "lat": "debager",
+   "cyr": "дебаггер"
+  },
+  "debug": {
+   "lat": "dibag",
+   "cyr": "дебаг"
+  },
+  "bug": {
+   "lat": "bag",
+   "cyr": "баг"
+  },
+  "segfault": {
+   "lat": "segfolt",
+   "cyr": "сегфолт"
+  },
+  "leak": {
+   "lat": "lik",
+   "cyr": "лик"
+  },
+  "valgrind": {
+   "lat": "valgrind",
+   "cyr": "валгринд"
+  },
+  "duck": {
+   "lat": "dak",
+   "cyr": "дак"
+  },
+  "make": {
+   "lat": "meyk",
+   "cyr": "мейк"
+  },
+  "makefile": {
+   "lat": "meykfayl",
+   "cyr": "мейкфайл"
+  },
+  "clang": {
+   "lat": "klang",
+   "cyr": "кланг"
+  },
+  "gcc": {
+   "lat": "ji si si",
+   "cyr": "джи си си"
+  },
+  "node": {
+   "lat": "nod",
+   "cyr": "нод"
+  },
+  "list": {
+   "lat": "list",
+   "cyr": "лист"
+  },
+  "linked": {
+   "lat": "linkt",
+   "cyr": "линкт"
+  },
+  "tree": {
+   "lat": "tri",
+   "cyr": "три"
+  },
+  "trie": {
+   "lat": "tray",
+   "cyr": "трай"
+  },
+  "hash": {
+   "lat": "xesh",
+   "cyr": "хэш"
+  },
+  "table": {
+   "lat": "teybl",
+   "cyr": "тейбл"
+  },
+  "queue": {
+   "lat": "kyu",
+   "cyr": "кью"
+  },
+  "swap": {
+   "lat": "svap",
+   "cyr": "своп"
+  },
+  "bubble": {
+   "lat": "babl",
+   "cyr": "бабл"
+  },
+  "search": {
+   "lat": "sorch",
+   "cyr": "сёрч"
+  },
+  "cache": {
+   "lat": "kesh",
+   "cyr": "кэш"
+  },
+  "bitmap": {
+   "lat": "bitmap",
+   "cyr": "битмап"
+  },
+  "pixel": {
+   "lat": "piksel",
+   "cyr": "пиксел"
+  },
+  "python": {
+   "lat": "payton",
+   "cyr": "пайтон"
+  },
+  "def": {
+   "lat": "def",
+   "cyr": "деф"
+  },
+  "print": {
+   "lat": "print",
+   "cyr": "принт"
+  },
+  "input": {
+   "lat": "input",
+   "cyr": "инпут"
+  },
+  "range": {
+   "lat": "reynj",
+   "cyr": "рейндж"
+  },
+  "len": {
+   "lat": "len",
+   "cyr": "лен"
+  },
+  "append": {
+   "lat": "apend",
+   "cyr": "аппенд"
+  },
+  "split": {
+   "lat": "split",
+   "cyr": "сплит"
+  },
+  "tuple": {
+   "lat": "taypl",
+   "cyr": "тапл"
+  },
+  "set": {
+   "lat": "set",
+   "cyr": "сет"
+  },
+  "dict": {
+   "lat": "dikt",
+   "cyr": "дикт"
+  },
+  "pip": {
+   "lat": "pip",
+   "cyr": "пип"
+  },
+  "html": {
+   "lat": "eych ti em el",
+   "cyr": "эйч ти эм эл"
+  },
+  "css": {
+   "lat": "si es es",
+   "cyr": "си эс эс"
+  },
+  "javascript": {
+   "lat": "javaskript",
+   "cyr": "джаваскрипт"
+  },
+  "dom": {
+   "lat": "di o em",
+   "cyr": "ди о эм"
+  },
+  "http": {
+   "lat": "eych ti ti pi",
+   "cyr": "эйч ти ти пи"
+  },
+  "https": {
+   "lat": "eych ti ti pi es",
+   "cyr": "эйч ти ти пи эс"
+  },
+  "url": {
+   "lat": "yu ar el",
+   "cyr": "ю ар эл"
+  },
+  "api": {
+   "lat": "ey pi ay",
+   "cyr": "эй пи ай"
+  },
+  "json": {
+   "lat": "jeyson",
+   "cyr": "джейсон"
+  },
+  "flask": {
+   "lat": "flask",
+   "cyr": "фласк"
+  },
+  "jinja": {
+   "lat": "jinja",
+   "cyr": "джинджа"
+  },
+  "bootstrap": {
+   "lat": "butstrap",
+   "cyr": "бутстрап"
+  },
+  "div": {
+   "lat": "div",
+   "cyr": "див"
+  },
+  "cookie": {
+   "lat": "kuki",
+   "cyr": "куки"
+  },
+  "session": {
+   "lat": "seshn",
+   "cyr": "сешн"
+  },
+  "request": {
+   "lat": "rikvest",
+   "cyr": "реквест"
+  },
+  "response": {
+   "lat": "rispons",
+   "cyr": "респонс"
+  },
+  "route": {
+   "lat": "raut",
+   "cyr": "раут"
+  },
+  "template": {
+   "lat": "templeyt",
+   "cyr": "темплейт"
+  },
+  "frontend": {
+   "lat": "frontend",
+   "cyr": "фронтенд"
+  },
+  "backend": {
+   "lat": "bekend",
+   "cyr": "бэкэнд"
+  },
+  "sql": {
+   "lat": "es kyu el",
+   "cyr": "эс кью эл"
+  },
+  "sqlite": {
+   "lat": "es kyu el ayt",
+   "cyr": "эс кью эл айт"
+  },
+  "select": {
+   "lat": "silekt",
+   "cyr": "селект"
+  },
+  "insert": {
+   "lat": "insert",
+   "cyr": "инсерт"
+  },
+  "update": {
+   "lat": "apdeyt",
+   "cyr": "апдейт"
+  },
+  "delete": {
+   "lat": "dilit",
+   "cyr": "делит"
+  },
+  "join": {
+   "lat": "joyn",
+   "cyr": "джойн"
+  },
+  "query": {
+   "lat": "kveri",
+   "cyr": "квери"
+  },
+  "primary": {
+   "lat": "praymeri",
+   "cyr": "праймари"
+  },
+  "key": {
+   "lat": "ki",
+   "cyr": "ки"
+  },
+  "foreign": {
+   "lat": "forin",
+   "cyr": "форин"
+  },
+  "git": {
+   "lat": "git",
+   "cyr": "гит"
+  },
+  "github": {
+   "lat": "gitxab",
+   "cyr": "гитхаб"
+  },
+  "commit": {
+   "lat": "komit",
+   "cyr": "коммит"
+  },
+  "push": {
+   "lat": "push",
+   "cyr": "пуш"
+  },
+  "pull": {
+   "lat": "pul",
+   "cyr": "пулл"
+  },
+  "branch": {
+   "lat": "branch",
+   "cyr": "бранч"
+  },
+  "merge": {
+   "lat": "merj",
+   "cyr": "мерж"
+  },
+  "repository": {
+   "lat": "ripozitori",
+   "cyr": "репозитори"
+  },
+  "bash": {
+   "lat": "bash",
+   "cyr": "баш"
+  },
+  "shell": {
+   "lat": "shel",
+   "cyr": "шелл"
+  },
+  "linux": {
+   "lat": "linuks",
+   "cyr": "линукс"
+  },
+  "unix": {
+   "lat": "yuniks",
+   "cyr": "юникс"
+  },
+  "macos": {
+   "lat": "mak o es",
+   "cyr": "мак о эс"
+  },
+  "windows": {
+   "lat": "vindous",
+   "cyr": "виндоус"
+  },
+  "codespaces": {
+   "lat": "kodspeyses",
+   "cyr": "коудспейсес"
+  },
+  "ide": {
+   "lat": "ay di i",
+   "cyr": "ай ди и"
+  },
+  "visual": {
+   "lat": "vizual",
+   "cyr": "визуал"
+  },
+  "studio": {
+   "lat": "studio",
+   "cyr": "студио"
+  },
+  "cd": {
+   "lat": "si di",
+   "cyr": "си ди"
+  },
+  "ls": {
+   "lat": "el es",
+   "cyr": "эл эс"
+  },
+  "mkdir": {
+   "lat": "em ki dir",
+   "cyr": "эм кей дир"
+  },
+  "rm": {
+   "lat": "ar em",
+   "cyr": "ар эм"
+  },
+  "cp": {
+   "lat": "si pi",
+   "cyr": "си пи"
+  },
+  "mv": {
+   "lat": "em vi",
+   "cyr": "эм ви"
+  },
+  "cs": {
+   "lat": "si es",
+   "cyr": "си эс"
+  },
+  "harvard": {
+   "lat": "xarvard",
+   "cyr": "харвард"
+  },
+  "scratch": {
+   "lat": "skrach",
+   "cyr": "скретч"
+  },
+  "sprite": {
+   "lat": "sprayt",
+   "cyr": "спрайт"
+  },
+  "pset": {
+   "lat": "pi set",
+   "cyr": "пи сет"
+  },
+  "check": {
+   "lat": "chek",
+   "cyr": "чек"
+  },
+  "hello": {
+   "lat": "helo",
+   "cyr": "хэлло"
+  },
+  "world": {
+   "lat": "vorld",
+   "cyr": "ворлд"
+  },
+  "ai": {
+   "lat": "ey ay",
+   "cyr": "эй ай"
+  },
+  "gpt": {
+   "lat": "ji pi ti",
+   "cyr": "джи пи ти"
+  },
+  "chatgpt": {
+   "lat": "chat ji pi ti",
+   "cyr": "чат джи пи ти"
+  },
+  "llm": {
+   "lat": "el el em",
+   "cyr": "эл эл эм"
+  },
+  "prompt": {
+   "lat": "prompt",
+   "cyr": "промпт"
+  },
+  "rgb": {
+   "lat": "ar ji bi",
+   "cyr": "ар джи би"
+  },
+  "jpeg": {
+   "lat": "jey peg",
+   "cyr": "джейпег"
+  },
+  "bmp": {
+   "lat": "bi em pi",
+   "cyr": "би эм пи"
+  }
+ }
+}

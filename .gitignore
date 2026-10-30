@@ -1,0 +1,19 @@
+# virtual muhitlar
+.venv/
+.venv-cbx/
+.venv-omni/
+__pycache__/
+*.pyc
+.DS_Store
+
+# katta va shaxsiy fayllar: videolar, audio, namuna ovoz, tayyor natijalar
+videos/
+outputs/*
+!outputs/.gitkeep
+
+# tarjima ishchi fayllari (ma'ruza matni va tarjimasi)
+claude_docs/*
+!claude_docs/README.md
+
+# uchinchi tomon loyihalar va modellar (Chatterbox)
+apps/vendor/
